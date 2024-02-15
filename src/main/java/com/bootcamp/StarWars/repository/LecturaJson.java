@@ -33,6 +33,7 @@ public class LecturaJson {
             throw new RuntimeException(e);
         }
     }
+
     private static class IntegerDeserializer extends JsonDeserializer<Integer> {
         @Override
         public Integer deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
