@@ -18,7 +18,6 @@ public class PersonajeRepositorioImp implements IPersonajeRepositorio {
 
     public PersonajeRepositorioImp() throws FileNotFoundException {
         this.personajes = cargarLista();
-        System.out.println("************* " + this.personajes);
     }
 
     private List<Personaje> cargarLista() {
